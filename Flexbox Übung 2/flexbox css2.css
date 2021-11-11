@@ -1,0 +1,32 @@
+.gelb {
+    height: 200px;
+    background-color: yellow;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box1 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+}
+
+.box2 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+}
+
+.box3 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+}
