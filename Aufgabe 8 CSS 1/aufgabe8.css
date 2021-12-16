@@ -1,0 +1,55 @@
+.orange {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: orange;
+    position: relative;
+    display: flex;
+}
+
+.green {
+    width: 200px;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: chartreuse;
+}
+
+.grau {
+    width: 200px;
+    height: 300px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: gray;
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.grey {
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+    display: flex;
+}
+
+.orang {
+    height: 130px;
+    width: 130px;
+    background-color: orange;
+    ;
+}
