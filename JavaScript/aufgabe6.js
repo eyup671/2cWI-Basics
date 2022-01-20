@@ -13,6 +13,15 @@ let random = Math.random() * 100;
 let randomAsInteger = Math.round(random);
 console.log(randomAsInteger);
 
-let random2 = Math.random() * 100;
-let randomAsInteger2 = Math.round(random2);
+random2 = Math.random() * 100;
+randomAsInteger2 = Math.round(random2);
 console.log(randomAsInteger2);
+
+if (randomAsInteger<randomAsInteger2){
+    console.log("Zahl 1 ist kleiner als Zahl 2");
+}
+
+else if (randomAsInteger<50
+    ){
+    console.log("Zahl 1 ist kleiner als Zahl 2 und Mini")
+}
