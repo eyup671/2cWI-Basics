@@ -17,11 +17,16 @@ random2 = Math.random() * 100;
 randomAsInteger2 = Math.round(random2);
 console.log(randomAsInteger2);
 
-if (randomAsInteger<randomAsInteger2){
-    console.log("Zahl 1 ist kleiner als Zahl 2");
+if (randomAsInteger<randomAsInteger2 && randomAsInteger<50){
+    console.log("Zahl 1 ist kleiner als Zahl 2 und Mini");
 }
 
-else if (randomAsInteger<50
-    ){
-    console.log("Zahl 1 ist kleiner als Zahl 2 und Mini")
+
+if (randomAsInteger<30 || randomAsInteger2<30) {
+    console.log<("Eine der beiden ist kleiner als 30")
+    
+}
+
+if (randomAsInteger<50 && randomAsInteger2!=50) {
+    console.log<("Erste Zahl klein, zweite kein 50iger")
 }
